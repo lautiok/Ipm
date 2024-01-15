@@ -6,5 +6,21 @@ body {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
 
+.scroll-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-up-button:hover {
+  color: #333333;
 }

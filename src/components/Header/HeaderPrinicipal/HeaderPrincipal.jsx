@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeaderPrincipalModule.css'
+import { Link } from 'react-router-dom'
 import logo from '../../../assets/logo.svg'
 
 export const HeaderPrincipal = () => {
@@ -11,8 +12,8 @@ export const HeaderPrincipal = () => {
             <div className='NavContainer'>
                 <nav>
                     <ul>
-                        <li><a className='active' href="">Inicio</a></li>
-                        <li><a href="">Institucional</a></li>
+                        <li><Link to="/"><a>Inicio</a></Link></li>
+                        <li><Link to="/institucional"><a>Institucional</a></Link></li>
                         <li><a href="">Jardin Infantes</a></li>
                         <li><a href="">Primario</a></li>
                         <li><a href="">Secundario</a></li>

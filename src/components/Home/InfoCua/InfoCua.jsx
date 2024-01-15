@@ -1,6 +1,6 @@
 import React from 'react'
 import './InfoCuaModule.css'
-import { Cuadrados } from '../../Cuadrados/Cuadrados'
+import { Cuadrados } from '../Cuadrados/Cuadrados'
 
 export const InfoCua = () => {
 
