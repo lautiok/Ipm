@@ -1,0 +1,19 @@
+.ButtonHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.button {
+    background-color: #6B1E1E;
+    border: none;
+    color: white;
+    padding: 1rem 6rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

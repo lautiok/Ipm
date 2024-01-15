@@ -1,0 +1,39 @@
+.HeroSeccionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(216, 216, 216, 0.3), rgba(215, 215, 215, 0.3)), url(../../../assets/hero.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+
+.HeroSeccioninfo {
+    text-align: center;
+
+    color: #6B1E1E;
+}
+
+.HeroSeccioninfo h1 {
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.HeroSeccioninfo h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.button {
+    background-color: #6B1E1E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

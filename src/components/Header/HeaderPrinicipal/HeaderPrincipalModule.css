@@ -1,0 +1,37 @@
+.HeaderPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.LogoContainer a img {
+    width: 150px;
+}
+
+.NavContainer nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavContainer nav ul li {
+    color: #000000;
+    margin: 0 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.NavContainer nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.NavContainer nav ul li .active {
+    color: #6B1E1E;
+    font-weight: 700;
+}

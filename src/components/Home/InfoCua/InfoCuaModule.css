@@ -1,0 +1,28 @@
+.contenedor-cuadrados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+.cuadrado {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.imagen-redonda {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.activate {
+    background-color: #FFE9E0;
+}

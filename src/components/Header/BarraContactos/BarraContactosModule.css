@@ -1,0 +1,33 @@
+.BarraContactosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B1E1E;
+    height: 25px;
+}
+
+.TelefonoContacto {
+    margin: 0 10px;
+}
+
+.TelefonoContacto i {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0 5px;
+}
+
+.EmailContacto i {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0 5px;
+}
+
+.TelefonoContacto a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.EmailContacto a {
+    text-decoration: none;
+    color: #ffffff;
+}
