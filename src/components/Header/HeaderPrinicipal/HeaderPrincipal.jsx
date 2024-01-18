@@ -14,7 +14,7 @@ export const HeaderPrincipal = () => {
                     <ul>
                         <li><Link to="/"><a>Inicio</a></Link></li>
                         <li><Link to="/institucional"><a>Institucional</a></Link></li>
-                        <li><a href="">Jardin Infantes</a></li>
+                        <li><Link to="/jardininfantes"><a>Jardin Infantes</a></Link></li>
                         <li><a href="">Primario</a></li>
                         <li><a href="">Secundario</a></li>
                         <li><a href="">Profesorado</a></li>
