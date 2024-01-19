@@ -17,7 +17,7 @@
 }
 
 .NavContainer nav ul li {
-    color: #000000;
+    color: #ffffff;
     margin: 0 8px;
     font-size: 1rem;
     font-weight: 500;
@@ -33,5 +33,6 @@
 
 .NavContainer nav ul li .active {
     color: #6B1E1E;
-    font-weight: 700;
+    font-weight: 800;
+
 }

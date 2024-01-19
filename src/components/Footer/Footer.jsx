@@ -1,12 +1,13 @@
 import React from 'react'
 import './FooterModule.css'
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo-footer.png'
 export const Footer = () => {
     return (
         <footer>
             <div className='p1'>
                 <div className='logo'>
-                    <a href=""><img src={Logo} alt="" /></a>
+                    <Link to="/"><img src={Logo} alt="logo" /></Link>
                 </div>
                 <div className='redes'>
                     <a href=""><i className="bi bi-instagram"></i>@institutoprivadodemerlo</a>

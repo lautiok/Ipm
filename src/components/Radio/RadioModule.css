@@ -1,0 +1,12 @@
+.radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11.6rem;
+}
+
+iframe {
+    border: #6B1E1E 1px solid;
+    ;
+}
