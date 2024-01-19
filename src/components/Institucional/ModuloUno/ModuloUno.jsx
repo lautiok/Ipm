@@ -12,7 +12,7 @@ export const ModuloUno = () => {
                     Nivel Inicial,  EGB - Nivel medio, Polimodal y Terciario. Nuestro Proyecto Educativo Institucional se fundamenta en una concepción humanística de la
                     vida, siendo conscientes de que cada niño y adolescente son personas únicas e irrepetibles.</p>
             </div>
-            <div className='videoYoutube'>
+            <div className='videoyoutube'>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wn59EvTnnig?si=a9TyoDC9jgHqLWuu&autoplay=1&modestbranding=1" title="Instituto Privado de Merlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>

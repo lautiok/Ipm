@@ -3,7 +3,7 @@ import './FormularioContactoModule.css'
 
 export const FormularioContacto = () => {
     return (
-        <section className='formulariocontacto' id='contactid'>
+        <section className='formulariocontacto'>
             <div className='formulario'>
                 <h2>Formulario de Consultas <br /> Nivel Inicial / Jardín de Infantes</h2>
                 <form action="">

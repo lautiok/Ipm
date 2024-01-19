@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Institucional } from './components/Institucional/Institucional'
 import { JardinInfantes } from './components/JardinInfante/JardinInfantes'
 import { Radio } from './components/Radio/Radio'
+import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/institucional' element={<Institucional />} />
         <Route path='/jardininfantes' element={<JardinInfantes />} />
         <Route path='/radio' element={<Radio />} />
+        <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
       </Routes>
       <Footer />
     </BrowserRouter>
