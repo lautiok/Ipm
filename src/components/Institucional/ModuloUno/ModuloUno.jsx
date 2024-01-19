@@ -13,7 +13,7 @@ export const ModuloUno = () => {
                     vida, siendo conscientes de que cada niño y adolescente son personas únicas e irrepetibles.</p>
             </div>
             <div className='videoyoutube'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Wn59EvTnnig?si=a9TyoDC9jgHqLWuu&autoplay=1&modestbranding=1" title="Instituto Privado de Merlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Wn59EvTnnig?si=a9TyoDC9jgHqLWuu&autoplay=1&modestbranding=1&mute=1" title="Instituto Privado de Merlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
     )

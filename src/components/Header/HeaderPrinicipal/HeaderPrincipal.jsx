@@ -18,7 +18,7 @@ export const HeaderPrincipal = () => {
                         <li><a href="">Primario</a></li>
                         <li><a href="">Secundario</a></li>
                         <li><a href="">Profesorado</a></li>
-                        <li><a href="">Novedades</a></li>
+                        <li><NavLink to="/novedades">Novedades</NavLink></li>
                         <li><NavLink to="/radio">Radio</NavLink></li>
                         <li><a href="">Contacto</a></li>
                     </ul>

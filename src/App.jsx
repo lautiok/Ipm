@@ -7,6 +7,7 @@ import { Institucional } from './components/Institucional/Institucional'
 import { JardinInfantes } from './components/JardinInfante/JardinInfantes'
 import { Radio } from './components/Radio/Radio'
 import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
+import { Novedades } from './components/Novedades/Novedades'
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/institucional' element={<Institucional />} />
         <Route path='/jardininfantes' element={<JardinInfantes />} />
         <Route path='/radio' element={<Radio />} />
+        <Route path='/Novedades' element={<Novedades />} />
         <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
       </Routes>
       <Footer />
