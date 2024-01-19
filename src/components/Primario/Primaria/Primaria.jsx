@@ -2,7 +2,6 @@ import React from 'react'
 import './PrimariaModule.css'
 import cdd from '../../../assets/info-img/atp.webp'
 import ved from '../../../assets/info-img/6b45fd0c-eda5-464d-be60-a95649c51cd9.webp'
-import auinf from '../../../assets/info-img/img_9716.webp'
 import actos from '../../../assets/info-img/8b520732-3b52-427f-9d29-5eb9730501a1.webp'
 import expo from '../../../assets/info-img/547bf369-932d-44f9-881d-b4cc504d07b2.webp'
 import biblioteca from '../../../assets/info-img/niño-en-la-biblioteca.webp'
@@ -29,10 +28,6 @@ export const Primaria = () => {
                     <div className='circulos'>
                         <img src={ved} alt="Visitas Educativas y Campamentos" />
                         <h4>Visitas Educativas y Campamentos</h4>
-                    </div>
-                    <div className='circulos'>
-                        <img src={auinf} alt='Aula Multimedia y Laboratorio' />
-                        <h4>Aula Multimedia y Laboratorio"</h4>
                     </div>
                     <div className='circulos'>
                         <img src={actos} alt="Actos Escolares y Celebraciones Patrias" />
