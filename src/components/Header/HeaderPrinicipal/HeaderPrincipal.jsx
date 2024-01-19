@@ -15,12 +15,11 @@ export const HeaderPrincipal = () => {
                         <li><NavLink to="/">Inicio</NavLink></li>
                         <li><NavLink to="/institucional">Institucional</NavLink></li>
                         <li><NavLink to="/jardininfantes">Jardin Infantes</NavLink></li>
-                        <li><a href="">Primario</a></li>
-                        <li><a href="">Secundario</a></li>
-                        <li><a href="">Profesorado</a></li>
-                        <li><NavLink to="/novedades">Novedades</NavLink></li>
+                        <li><NavLink to="/primario">Primario</NavLink></li>
+                        <li><NavLink to="/secundario">Secundario</NavLink></li>
+                        <li><NavLink to="/profesorado">Profesorado</NavLink></li>
                         <li><NavLink to="/radio">Radio</NavLink></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><NavLink to="/contacto">Contacto</NavLink></li>
                     </ul>
                 </nav>
             </div>

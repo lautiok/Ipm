@@ -8,6 +8,7 @@ import { JardinInfantes } from './components/JardinInfante/JardinInfantes'
 import { Radio } from './components/Radio/Radio'
 import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
 import { Novedades } from './components/Novedades/Novedades'
+import { Construccion } from './components/Construccion/Construccion'
 function App() {
 
 
@@ -20,6 +21,10 @@ function App() {
         <Route path='/jardininfantes' element={<JardinInfantes />} />
         <Route path='/radio' element={<Radio />} />
         <Route path='/Novedades' element={<Novedades />} />
+        <Route path='/primario' element={<Construccion />} />
+        <Route path='/secundario' element={<Construccion />} />
+        <Route path='/profesorado' element={<Construccion />} />
+        <Route path='/contacto' element={<Construccion />} />
         <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
       </Routes>
       <Footer />

@@ -5,9 +5,9 @@ export const ButtonHome = () => {
     return (
         <section className='ButtonHomeContainer'>
             <Link to="/jardininfantes"><a className='button' href="">Jardin</a></Link>
-            <a className='button' href="">Primario</a>
-            <a className='button' href="">Secundario</a>
-            <a className='button' href="">Profesorado</a>
+            <Link to="/primario"><a className='button' href="">Primario</a></Link>
+            <Link to="/secundario"><a className='button' href="">Secundario</a></Link>
+            <Link to="/profesorado"><a className='button' href="">Profesorado</a></Link>
         </section>
     )
 }
