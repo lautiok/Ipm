@@ -7,8 +7,10 @@ import { Institucional } from './components/Institucional/Institucional'
 import { JardinInfantes } from './components/JardinInfante/JardinInfantes'
 import { Radio } from './components/Radio/Radio'
 import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
-import { Novedades } from './components/Novedades/Novedades'
 import { Construccion } from './components/Construccion/Construccion'
+import { Primario } from './components/Primario/Primario'
+import { Contacto } from './components/contacto/contacto'
+import { Contact } from './components/Contacto/Contact/Contact'
 function App() {
 
 
@@ -20,11 +22,10 @@ function App() {
         <Route path='/institucional' element={<Institucional />} />
         <Route path='/jardininfantes' element={<JardinInfantes />} />
         <Route path='/radio' element={<Radio />} />
-        <Route path='/Novedades' element={<Novedades />} />
-        <Route path='/primario' element={<Construccion />} />
+        <Route path='/primario' element={<Primario />} />
         <Route path='/secundario' element={<Construccion />} />
         <Route path='/profesorado' element={<Construccion />} />
-        <Route path='/contacto' element={<Construccion />} />
+        <Route path='/contacto' element={<Contact />} />
         <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
       </Routes>
       <Footer />
