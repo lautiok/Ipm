@@ -9,10 +9,10 @@ export const Contact = () => {
                 <div className='ulc'>
                     <h2>Formulario de Consultas :</h2>
                     <ul className='ulc-contact'>
-                        <li><Link to='/'><a>Jardin</a></Link></li>
-                        <li><Link to='/institucional'><a>Primaria</a></Link></li>
-                        <li><Link to='/jardininfantes'><a>Secundaria</a></Link></li>
-                        <li><Link to='/radio'><a>Profesorado</a></Link></li>
+                        <li><Link to='/formulario/nivelinicial'><a>Jardin</a></Link></li>
+                        <li><Link to='/formulario/nivelprimario'><a>Primaria</a></Link></li>
+                        <li><Link to='/'><a>Secundaria</a></Link></li>
+                        <li><Link to='/'><a>Profesorado</a></Link></li>
                     </ul>
                 </div>
             </div>

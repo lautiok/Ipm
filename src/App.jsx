@@ -6,11 +6,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Institucional } from './components/Institucional/Institucional'
 import { JardinInfantes } from './components/JardinInfante/JardinInfantes'
 import { Radio } from './components/Radio/Radio'
-import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
 import { Construccion } from './components/Construccion/Construccion'
 import { Primario } from './components/Primario/Primario'
-import { Contacto } from './components/contacto/contacto'
 import { Contact } from './components/Contacto/Contact/Contact'
+import { FormularioContactoP } from './components/Primario/FormularioContactoP/FormularioContactoP'
+import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
 function App() {
 
 
@@ -27,6 +27,7 @@ function App() {
         <Route path='/profesorado' element={<Construccion />} />
         <Route path='/contacto' element={<Contact />} />
         <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
+        <Route path='/formulario/nivelprimario' element={<FormularioContactoP />} />
       </Routes>
       <Footer />
     </BrowserRouter>
