@@ -10,8 +10,8 @@ export const Footer = () => {
                     <Link to="/"><img src={Logo} alt="logo" /></Link>
                 </div>
                 <div className='redes'>
-                    <a href=""><i className="bi bi-instagram"></i>@institutoprivadodemerlo</a>
-                    <a href=""><i className="bi bi-whatsapp"></i>+54 9 11 6609-3186</a>
+                    <a href=""><i className="bi bi-instagram"></i></a>
+                    <a href=""><i className="bi bi-whatsapp"></i></a>
                 </div>
             </div>
             <div className='p2'>

@@ -58,3 +58,93 @@
     width: 160px;
     border-radius: 100%;
 }
+
+/* Estilos para pantallas más grandes (por defecto) */
+.moduloprincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20rem;
+}
+
+.moduloprincipal h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.moduloprimario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+.moduloprimario p {
+    margin-right: 7rem;
+}
+
+.moduloprimario .serviciosescolares h3 {
+    background-color: #6B1E1E;
+    color: white;
+    padding: 1rem;
+    margin-right: 20rem;
+}
+
+.moduloprimario .serviciosescolares .fotomasinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moduloprimario .serviciosescolares .fotomasinfo p {
+    margin-right: 20rem;
+    margin-left: 1rem;
+}
+
+.moduloprimario .serviciosescolares .fotomasinfo img {
+    width: 360px;
+}
+
+.modulosecundariop {
+    text-align: center;
+    margin-bottom: 50rem;
+}
+
+.modulosecundariop img {
+    width: 160px;
+    border-radius: 100%;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    .moduloprincipal {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    .moduloprincipal h2 {
+        font-size: 1.2rem;
+    }
+
+    .moduloprimario {
+        margin-bottom: 5rem;
+    }
+
+    .moduloprimario p,
+    .moduloprimario .serviciosescolares h3,
+    .moduloprimario .serviciosescolares .fotomasinfo p {
+        margin-right: 0;
+    }
+
+    .moduloprimario .serviciosescolares h3 {
+        margin-right: 2rem;
+    }
+
+    .moduloprimario .serviciosescolares .fotomasinfo img {
+        width: 100%;
+    }
+
+    .modulosecundariop {
+        margin-bottom: 20rem;
+    }
+}

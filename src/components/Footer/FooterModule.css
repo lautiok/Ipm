@@ -14,12 +14,17 @@ footer .logo a img {
     width: 200px;
 }
 
-footer .p1 .redes a {
+footer .p1 .redes {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .p1 .redes a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     gap: 1rem;
     font-weight: 300;
 }
@@ -42,10 +47,25 @@ footer .p2 p {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 footer .p2 a {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1090px) {
+    footer .p1 {
+        flex-direction: column;
+    }
+
+    footer .p1 .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
 }

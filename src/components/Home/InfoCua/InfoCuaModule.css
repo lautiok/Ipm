@@ -26,3 +26,10 @@
 .activate {
     background-color: #FFE9E0;
 }
+
+@media screen and (max-width: 1090px) {
+    .contenedor-cuadrados {
+        margin: 0;
+    }
+
+}
