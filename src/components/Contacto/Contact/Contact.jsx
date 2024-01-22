@@ -12,7 +12,7 @@ export const Contact = () => {
                         <li><Link to='/formulario/nivelinicial'><a>Jardin</a></Link></li>
                         <li><Link to='/formulario/nivelprimario'><a>Primaria</a></Link></li>
                         <li><Link to='/formulario/nivelsecundario'><a>Secundaria</a></Link></li>
-                        <li><Link to='/'><a>Profesorado</a></Link></li>
+                        <li><Link to='/formulario/nivelterciario'><a>Profesorado</a></Link></li>
                     </ul>
                 </div>
             </div>

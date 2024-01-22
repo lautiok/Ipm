@@ -1,0 +1,53 @@
+.moduloprincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20rem;
+}
+
+
+
+.moduloprincipal h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.moduloprimario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.moduloprimario p {
+    margin-right: 7rem;
+}
+
+.modulosecundariop {
+    text-align: center;
+    margin-bottom: 20rem;
+}
+
+.modulosecundariop img {
+    width: 160px;
+    border-radius: 100%;
+}
+
+.sepr {
+    margin-right: 9.5rem;
+}
+
+.sepr-unoydos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sepr-unoydos h3 {
+    background-color: #6B1E1E;
+    color: white;
+    padding: 1rem 10rem;
+    text-align: center;
+}

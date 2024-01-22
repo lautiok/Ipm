@@ -13,6 +13,8 @@ import { FormularioContactoP } from './components/Primario/FormularioContactoP/F
 import { FormularioContacto } from './components/JardinInfante/FormularioContacto/FormularioContacto'
 import { Secundario } from './components/Secundario/Secundario'
 import { FormularioContactoS } from './components/Secundario/FormularioContactoS/FormularioContactoS'
+import { Profesorado } from './components/Profesorado/Profesorado'
+import { FormularioContactoPr } from './components/Profesorado/FormularioContactoS/FormularioContactoPr'
 function App() {
 
 
@@ -26,11 +28,12 @@ function App() {
         <Route path='/radio' element={<Radio />} />
         <Route path='/primario' element={<Primario />} />
         <Route path='/secundario' element={<Secundario />} />
-        <Route path='/profesorado' element={<Construccion />} />
+        <Route path='/profesorado' element={<Profesorado />} />
         <Route path='/contacto' element={<Contact />} />
         <Route path='/formulario/nivelinicial' element={<FormularioContacto />} />
         <Route path='/formulario/nivelprimario' element={<FormularioContactoP />} />
         <Route path='/formulario/nivelsecundario' element={<FormularioContactoS />} />
+        <Route path='/formulario/nivelterciario' element={<FormularioContactoPr />} />
       </Routes>
       <Footer />
     </BrowserRouter>
