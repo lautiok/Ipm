@@ -1,0 +1,24 @@
+.HeroSeccionContainersecundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(216, 216, 216, 0.3), rgba(215, 215, 215, 0.3)), url(../../../assets/hero.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+
+.HeroSeccioninfosecundario {
+    text-align: center;
+    color: #6B1E1E;
+}
+
+.HeroSeccioninfosecundario h1 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.HeroSeccioninfosecundario h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}

@@ -1,0 +1,60 @@
+.moduloprincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20rem;
+}
+
+
+
+.moduloprincipal h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.moduloprimario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.moduloprimario p {
+    margin-right: 7rem;
+}
+
+.moduloprimario .serviciosescolares h3 {
+    background-color: #6B1E1E;
+    color: white;
+    padding: 1rem;
+    margin-right: 19rem;
+}
+
+.moduloprimario .serviciosescolares .fotomasinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moduloprimario .serviciosescolares .fotomasinfo p {
+    margin-right: 20rem;
+    margin-left: 1rem;
+}
+
+
+.moduloprimario .serviciosescolares .fotomasinfo img {
+    width: 360px;
+}
+
+
+.modulosecundariop {
+    text-align: center;
+    margin-bottom: 50rem;
+}
+
+.modulosecundariop img {
+    width: 160px;
+    border-radius: 100%;
+}
