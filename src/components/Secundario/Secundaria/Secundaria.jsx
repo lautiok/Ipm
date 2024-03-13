@@ -19,7 +19,7 @@ export const Secundaria = () => {
                 <ModuloInformativoS />
                 <ServiciosEscolaresS />
             </div>
-            <div className='modulosecundariop'>
+            <div className='modulosecundariopr'>
                 <h3>Talleres y Actividades</h3>
                 <div className='circulos-secundario'>
                     <div className='circulos'>

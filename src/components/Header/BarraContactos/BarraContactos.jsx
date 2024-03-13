@@ -1,5 +1,7 @@
 import React from 'react'
 import './BarraContactosModule.css'
+import { Link } from 'react-router-dom'
+
 
 export const BarraContactos = () => {
     return (
@@ -7,11 +9,11 @@ export const BarraContactos = () => {
             <div className='BarraContactosContainer'>
                 <div className='TelefonoContacto'>
                     <i className="bi bi-telephone"></i>
-                    <a href="">0220-489-0440</a>
+                    <a href="tel:+5491155555555">+54 9 11 5555-5555</a>
                 </div>
                 <div className='EmailContacto'>
                     <i className="bi bi-envelope"></i>
-                    <a href="">Formularios de Contacto</a>
+                    <a><Link to="/contacto" >Formularios de Contacto</Link></a>
                 </div>
             </div>
         </>

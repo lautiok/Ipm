@@ -15,6 +15,7 @@ import { Secundario } from './components/Secundario/Secundario'
 import { FormularioContactoS } from './components/Secundario/FormularioContactoS/FormularioContactoS'
 import { Profesorado } from './components/Profesorado/Profesorado'
 import { FormularioContactoPr } from './components/Profesorado/FormularioContactoS/FormularioContactoPr'
+import { Blog } from './components/Blog/Blog'
 function App() {
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path='/formulario/nivelprimario' element={<FormularioContactoP />} />
         <Route path='/formulario/nivelsecundario' element={<FormularioContactoS />} />
         <Route path='/formulario/nivelterciario' element={<FormularioContactoPr />} />
+        <Route path='/novedades' element={<Blog />} />
       </Routes>
       <Footer />
     </BrowserRouter>

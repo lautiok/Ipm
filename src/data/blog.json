@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cómo mejorar tus habilidades de lectura",
+    "imagen": "https://pamer.edu.pe/academias/wp-content/uploads/sites/3/2023/04/web.png"
+  },
+  {
+    "id": 2,
+    "titulo": "10 consejos para estudiar de manera efectiva",
+    "imagen": "https://static-blog.onlyoffice.com/wp-content/uploads/2023/08/08103312/ONLYOFFICE-10-tips-on-how-to-study-effectively.png"
+  },
+  {
+    "id": 3,
+    "titulo": "La importancia de la educación STEM en el siglo XXI",
+    "imagen": "https://educacion.stem.siemens-stiftung.org/wp-content/uploads/2022/05/stem-laboratorio.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Los beneficios de aprender un nuevo idioma",
+    "imagen": "https://elblogdeidiomas.es/wp-content/uploads/2020/12/Beneficios-psicologicos-de-aprender-un-segundo-idioma.png"
+  },
+  {
+    "id": 5,
+    "titulo": "Cómo enseñar matemáticas de forma divertida",
+    "imagen": "https://images.ecestaticos.com/FAEZRJxCOb6qLy9t19yZvOIc_hI=/0x56:639x415/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff3e%2F8f9%2F699%2Ff3e8f96994af21863a5c5372886640ec.jpg"
+
+  },
+  {
+    "id": 6,
+    "titulo": "¿Por que aprender matemáticas?",
+    "imagen": "https://i0.wp.com/topcultural.es/wp-content/uploads/2021/11/pexels-photo-5212316-matematicas.jpeg"
+  }
+]

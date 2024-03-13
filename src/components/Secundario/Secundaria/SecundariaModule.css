@@ -47,14 +47,3 @@
 .moduloprimario .serviciosescolares .fotomasinfo img {
     width: 360px;
 }
-
-
-.modulosecundariop {
-    text-align: center;
-    margin-bottom: 50rem;
-}
-
-.modulosecundariop img {
-    width: 160px;
-    border-radius: 100%;
-}

@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 
 }
 
@@ -49,12 +49,12 @@
 }
 
 
-.modulosecundariop {
+.modulosecundariopr {
     text-align: center;
-    margin-bottom: 50rem;
+    margin-bottom: 55rem;
 }
 
-.modulosecundariop img {
+.modulosecundariopr img {
     width: 160px;
     border-radius: 100%;
 }
